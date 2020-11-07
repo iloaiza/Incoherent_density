@@ -3,7 +3,8 @@
 Code written by Ignacio Loaiza G.
 ignacio.loaiza@mail.utoronto.ca
 
-Used for generating all the data and figures in
+Used for generating all the data and figures in:
+
 [1] - I. Loaiza, A. F. Izmaylov, and P. Brumer. Computational approaches to efficient generation of the stationary state for incoherent light excitation. (Submitted)
 	
 
