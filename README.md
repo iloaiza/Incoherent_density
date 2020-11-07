@@ -3,12 +3,14 @@
 Code written by Ignacio Loaiza G.
 ignacio.loaiza@mail.utoronto.ca
 
+Used for generating all the data and figures in
 [1] - I. Loaiza, A. F. Izmaylov, and P. Brumer. Computational approaches to efficient generation of the stationary state for incoherent light excitation. (Submitted)
 	
 
-include all libraries with include("include.jl").
+## Usage
+Run using the Julia language. First include all libraries with 'include("include.jl")'.
 
-If rhodopsin.h5 in DATA folder exists, can load all rhodopsin values with "loading("rhodopsin")". Otherwise, run fdebug() with uncommented rhodopsin section for generating Hamiltonian and Franck-Condon wavefunction.
+If this is the first run and rhodopsin.h5 does not exist, generate it using fdebug(). Otherwise load using 'loading("rhodopsin")'. This loads rhodopsin model Hamiltonian and Franck-Condon wavefunction. fdebug.jl module also has examples for generating the LVC Hamiltonian and Franck-Condon wavefunction.
 
 
 ## General methodologies
@@ -19,7 +21,7 @@ Lindbladian evolution: see methodologies in PLOT.jl and lindblad.jl
 Lanczos shift-and-invert: see methodologies in shift.jl and parallel.jl
 
 
-General list of modules:
+### General list of modules:
 
 chebyshev.jl: Chebyshev interpolation procedure and Clenshaw rule for density matrices
 

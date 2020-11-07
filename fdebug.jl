@@ -62,7 +62,7 @@ println("Created HnD, MUnD and ϕ0nD for n=2,3,5")
 println("Rhodopsin debug")
 loading("rhodopsin")
 # =#
-#=
+# =
 Hrhod,_,Srhod = rhodCosHamiltonian()
 Hrhodsts = length(Hrhod[:,1])
 Erhod,Urhod = adiabatize(Hrhod)
